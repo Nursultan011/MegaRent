@@ -27,6 +27,10 @@ img{
         }
     }
 }
+
+.container-fluid-left{
+    padding: 0 0 0 rem(64px);
+}
 .container-fluid-footer{
     padding: rem(48px) rem(175px);
 }
@@ -106,6 +110,17 @@ header{
     }
     .container-fluid{
         padding: rem(17px) rem(42px);
+    }
+    .container-fluid-left{
+        padding: 0 0 0 rem(42px);
+    }
+}
+
+
+.mobile-app{
+    &__bg{
+        height: 648px;
+        width: 50%;
     }
 }
 

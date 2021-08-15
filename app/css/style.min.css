@@ -19,6 +19,10 @@ img{
   margin-left:.625rem
 }
 
+.container-fluid-left{
+  padding:0 0 0 4rem
+}
+
 .container-fluid-footer{
   padding:3rem 10.9375rem
 }
@@ -95,6 +99,15 @@ header .bottom_block .flex a:after{
   .container-fluid{
     padding:1.0625rem 2.625rem
   }
+
+  .container-fluid-left{
+    padding:0 0 0 2.625rem
+  }
+}
+
+.mobile-app__bg{
+  height:648px;
+  width:50%
 }
 
 .dashboard{
