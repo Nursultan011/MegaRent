@@ -1,0 +1,94 @@
+.about-us
+    margin-bottom: 160px
+    &__inner
+        padding-top: 80px
+    &__title
+        font-weight: 600
+        font-size: 38px
+        line-height: 46px
+        text-align: center
+        color: #0371FF
+        margin-bottom: 20px
+    &__subtitle
+        font-weight: 400
+        font-size: 24px
+        line-height: 29px
+        text-align: center
+        width: 58%
+        margin: 0 auto 0 auto
+        color: #000000
+    &__img
+        img
+            width: 100%
+            height: 600px
+            margin: 40px 0
+    &__quote
+        margin-top: 80px
+    &__quoteDescription
+        margin-top: 40px
+        background-image: url('../img/about-us-quote.jpg')
+        background-size: cover
+        background-repeat: no-repeat
+        padding: 80px
+        border-radius: 20px
+        overflow: hidden
+        font-weight: 600
+        font-size: 24px
+        line-height: 140%
+        text-align: center
+        color: #FFFFFF
+    &__blocks
+        margin-top: 160px
+    &__items
+        margin-top: 40px
+        display: flex
+        justify-content: space-between
+    &__item
+        width: 31.5%
+        text-align: center
+    &__item-img
+        margin: 0 auto
+    &__item-title
+        margin-top: 10px
+        font-weight: 500
+        font-size: 24px
+        line-height: 29px
+        color: #000000
+    &__item-subtitle
+        margin-top: 10px
+        font-weight: 300
+        font-size: 18px
+        line-height: 24px
+        text-align: center
+        color: #000000
+
+@media (max-width: 767px)
+    .about-us
+        &__subtitle
+            width: 90%
+        &__quoteDescription
+            padding: 30px 15px
+            background-position: 20%
+            background-size: cover
+            font-size: 16px
+
+        &__img
+            img
+                height: auto
+        &__items
+            flex-wrap: wrap
+        &__item
+            width: 100%
+            margin-bottom: 40px
+
+@media (min-width: 768px) and (max-width: 992px)
+    .about-us
+        &__subtitle
+            width: 75%
+        &__quoteDescription
+            padding: 50px
+        &__items
+            flex-wrap: wrap
+        &__item
+            width: 49%
+            margin-bottom: 40px

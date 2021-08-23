@@ -1,5 +1,10 @@
 $html-font-size: 16px;
 
+@import 'libs';
+@import 'about';
+@import 'request';
+@import 'news';
+
 html{
     font-size: $html-font-size;
     font-family: 'Montserrat', sans-serif;
@@ -45,6 +50,9 @@ img{
     background-position: center;
     background-size: cover;
     height: rem(497px);
+}
+.news_bg{
+    background-image: url('../img/news-bg.jpg') !important;
 }
 .second_section{
     &_items{
@@ -97,6 +105,22 @@ header{
                 left: 0;
             }
         }
+    }
+}
+
+@media (max-width: 767px){
+    $html-font-size: 14px;
+    html{
+        font-size: $html-font-size
+    }
+    .container-fluid-footer{
+        padding: 0 15px;
+    }
+    .container-fluid{
+        padding: 0 15px;
+    }
+    .container-fluid-left{
+        padding: 0 15px;
     }
 }
 

@@ -1,0 +1,95 @@
+.request
+    background-image: url('../img/request-bg.png')
+    margin-top: 155px
+    background-repeat: no-repeat
+    background-size: cover
+    padding-bottom: 80px
+    &__form
+        margin-top: -50px
+        background: #FFFFFF
+        border: 1px solid #EDEDED
+        box-sizing: border-box
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05)
+        border-radius: 12px
+        width: 40%
+        margin-left: 55%
+        padding: 60px 55px 70px 55px
+    &__title
+        font-weight: 500
+        font-size: 36px
+        color: #000000
+        margin-bottom: 24px
+    &__box
+        p
+            font-size: 16px
+            color: #000000
+            margin-bottom: 12px
+        & + .request__box
+            margin-top: 24px
+    &__input,&__textarea
+        background: rgba(3, 113, 255, 0.1)
+        border-radius: 10px
+        border: 1px solid rgba(3, 113, 255, 0.1)
+        border: none
+        resize: none
+        width: 100%
+        padding: 10px
+        outline: none
+        cursor: pointer
+        transition: 0.3s
+        &:focus
+            background: white
+            border: 1px solid #0371FF
+    &__textarea
+        padding: 10px
+        height: 160px
+        margin-bottom: 36px
+    .button
+        background: #0371FF
+        font-weight: 600
+        font-size: 16px
+        padding: 18px 80px
+        color: #FFFFFF
+        border-radius: 30px
+    &__contacts
+        margin-top: 40px
+        margin-bottom: 80px
+    &__contacts-item
+        display: flex
+        margin-bottom: 38px
+        align-items: center
+        justify-content: flex-start
+        img
+            width: 20px
+            margin-right: 24px
+        span
+            font-size: 16px
+            color: #000000
+            font-weight: 400
+            margin-bottom: 10px
+        h2
+            font-weight: 600
+            font-size: 24px
+            color: #000000
+
+@media (max-width: 767px)
+    .request
+        margin-top: 80px
+        padding-top: 50px
+        padding-bottom: 50px
+        &__form
+            margin-left: 0
+            padding: 25px
+            width: 100%
+            margin-top: 0
+        .button
+            width: 100%
+
+@media (min-width: 768px) and (max-width: 992px)
+    .request
+        &__form
+            margin-left: 30%
+            padding: 25px
+            width: 60%
+        .button
+            width: 100%
