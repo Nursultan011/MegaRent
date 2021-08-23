@@ -5625,6 +5625,20 @@ html{
   margin-bottom:160px
 }
 
+.news__item{
+  width:48.5%
+}
+
+.news__item img{
+  width:100%
+}
+
+@media (max-width: 1024px){
+  .news__item{
+    width:100%
+  }
+}
+
 html{
   font-size:16px;
   font-family:'Montserrat', sans-serif
