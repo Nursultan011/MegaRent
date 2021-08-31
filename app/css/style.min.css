@@ -6269,4 +6269,43 @@ header .bottom_block .flex a:after{
     margin:0 auto;
     display:block
   }
+
+  .dashboard__left{
+    width:70px
+  }
+
+  .dashboard__img{
+    width:40px
+  }
+
+  .dashboard__right{
+    width:calc(100% - 70px)
+  }
+
+  .dashboard__right .dashboard__tab2 .second_section_block .border_favorite{
+    width:100%
+  }
+
+  .dashboard__tab2{
+    width:90%
+  }
+
+  .dashboard__form{
+    width:90%;
+    padding-left:0;
+    padding-right:0;
+    margin:0 auto
+  }
+
+  .dashboard__input{
+    width:100%
+  }
+
+  .dashboard__button{
+    width:100%
+  }
+
+  .mobile-app{
+    padding-top:60px
+  }
 }
