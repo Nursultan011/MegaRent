@@ -6271,7 +6271,9 @@ header .bottom_block .flex a:after{
   }
 
   .dashboard__left{
-    width:70px
+    width:70px;
+    padding-top:25px;
+    padding-bottom:25px
   }
 
   .dashboard__img{
